@@ -118,5 +118,6 @@ namespace NetModules.Interfaces
         /// to try and access other modules inside this method.
         /// </summary>
         void OnUnloaded();
+        void Handle(IEvent e);
     }
 }

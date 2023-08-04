@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ApplicationIcon />
+		<OutputType>Exe</OutputType>
+		<StartupObject />
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NetModules.GPTBot.Events\NetModules.GPTBot.Events.csproj" />
+		<ProjectReference Include="..\NetModules.GPTBot\NetModules.GPTBot.csproj" />
+		<ProjectReference Include="..\NetModules\NetModules.csproj" />
+	</ItemGroup>
+
+</Project>
